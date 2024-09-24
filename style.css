@@ -1,0 +1,56 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+button{
+    border: width 6px;
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    background-color: rgb(136, 134, 134);
+    font-size: 100px;
+    border-left: 0;
+    border-top: 0;
+    vertical-align: top;
+    cursor:pointer;
+    border-radius: 10px;
+}
+
+h1{
+    font-family: "Roboto Condensed", sans-serif;
+    color: white;
+    margin: 20px 0 15px 0;
+}
+
+h2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    margin: 30px 0 0 0;
+}
+
+body{
+    text-align: center;
+    background-color: blueviolet;
+}
+
+.btjogo0, .btjogo1{
+    padding-top: 0;
+    margin-top: 0;
+
+}
+.btjogo2{
+    border-bottom: 0;
+}
+
+#bt02, #bt12, #bt22{
+    border-right: 0;
+}
+
+#bt20, #bt21, #bt22{
+    border-bottom: 0;
+}
+
+button:disabled{
+    border-color: black;
+}
